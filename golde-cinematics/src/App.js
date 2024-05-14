@@ -37,16 +37,16 @@ function App() {
        </section> 
         </article>
         <article className='container-small flex flex-col justify-center py-24'>
-          <h2 className='border border-[#CC7F2E] p-2 uppercase text-center w-32 self-center'>our story</h2>
-          <h1 className='text-[128px] uppercase text-center hero leading-none py-8 pb-24'>Meet <span className='text-[#CC7F2E]'>John</span></h1>
+          <h2 className='border border-[#CC7F2E] p-2 uppercase text-center w-32 self-center text-xl'>our story</h2>
+          <h3 className='text-[128px] uppercase text-center hero leading-none py-8 pb-24'>Meet <span className='text-[#CC7F2E]'>John</span></h3>
           
-          <section className="container-small flex justify-center items-center relative min-w-[500px] w-[40%] p-12 hieght-12">
+          <section className="container-small flex justify-center items-center relative min-w-[500px] w-[38%] p-12 hieght-12">
            <div className="seldf-center flex flex-row justify-center max-h-[60%] w-full max-w-[500px]">
             <img src={"/assets/page2/john2.png"} alt="johns story" className="border border-[#CC7F2E] w-[60%]" />
             <img src={"/assets/page2/john1.png"} alt="johns story" className="border border-[#CC7F2E] w-[60%]" /> 
           </div>
       
-          <div className="border border-[#CC7F2E] absolute w-[60%] h-full bg-[#121212] text-xs px-4 py-12 leading-normal text-center">
+          <div className="border border-[#CC7F2E] absolute min-w-[60%] h-full bg-[#121212] text-xs px-4 py-12 leading-normal text-center w-[350px]">
             <p>From a media arts enthusiast at Westfield State to an acclaimed director at Surefire Creative Studios, John, nicknamed "Golde" by his team, has led a 15-year journey in filmmaking marked by creative innovation and a deep passion for visual storytelling. Under the mentorship of the late Jared Hancock, John mastered the craft of cinematic expression and led a team of creatives to new heights.</p>
             <p className="pt-4">
               Today, John channels resilience and authenticity into every project, partnering with leading brands to create content that resonates and inspires. His mission? To honor a legacy of excellence and ignite the screen with stories that matter.
@@ -54,8 +54,41 @@ function App() {
             <p>Join John on this transformative journey, where vision meets purpose, and every frame tells a story.</p>
             </div>
           </section>
-         
-          
+        </article>
+        <article  className='flex flex-col justify-center pb-24'>
+          <hgroup className="container-small flex flex-col justify-center">
+          <h2 className='border border-[#CC7F2E] p-2 uppercase text-center w-32 text-xl self-center'>our work</h2>
+          <h3 className='text-[128px] uppercase text-center hero leading-none py-8 pb-12'>Cool innovations</h3>
+          </hgroup>
+          <div className="container-big grid place-content-center grid-cols-4 border border-[#CC7F2E] w-ful uppercase">
+            <span className="text-xl text-black text-center bg-[#CC7F2E] p-2 #828283">all</span>
+            <span className="text-xl text-white text-center bg-[#828283] p-2 border-l-[1px] border-r-[1px] border-[#CC7F2E]">brands</span>
+            <span className="text-xl text-white text-center bg-[#828283] p-2 border-l-[1px] border-r-[1px] border-[#CC7F2E]">weddings</span>
+            <span className="text-xl text-white text-center bg-[#828283] p-2 border-l-[1px] border-r-[1px] border-[#CC7F2E]">music</span>
+          </div>
+          <section className="my-8 container-big grid place-content-center grid-cols-3 grid-rows-1 border border-[#CC7F2E] w-ful uppercase">
+              <figure className={"border border-[#CC7F2E] w-ful uppercase"}>
+                <img src="/assets/works/swiftstrike.png" alt="swiftstrike"/>
+                <figcaption>
+                  <p className="flex justify-between p-4"><span>brands</span><span>24th august 2024</span></p>
+                  <p className="text-[#CC7F2E] font-bold text-2xl p-4">swiftstrike</p>
+                </figcaption>
+              </figure>
+              <figure className={"border border-[#CC7F2E] w-ful uppercase"}>
+                <img src="/assets/works/swiftstrike.png" alt="swiftstrike"/>
+                <figcaption>
+                  <p className="flex justify-between p-4"><span>brands</span><span>24th august 2024</span></p>
+                  <p className="text-[#CC7F2E] font-bold text-2xl p-4">swiftstrike</p>
+                </figcaption>
+              </figure>
+              <figure className={"border border-[#CC7F2E] w-ful uppercase"}>
+                <img src="/assets/works/swiftstrike.png" alt="swiftstrike"/>
+                <figcaption>
+                  <p className="flex justify-between p-4"><span>brands</span><span>24th august 2024</span></p>
+                  <p className="text-[#CC7F2E] font-bold text-2xl p-4">swiftstrike</p>
+                </figcaption>
+              </figure>
+          </section>
         </article>
     </main>
   );
